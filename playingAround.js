@@ -1,10 +1,17 @@
-const ccRecord = () => {
-  let record  ={
-    name: document.getElementById('holderName').value,
-    'credit card number': document.getElementById('ccNum').value,
-    csc: document.getElementById('csc').value
+function positiveSum(arr) {
+  let sumOfPositive = 0;
+  for (let i = 0; i<arr.length; i++) {
+    if(arr[i] >=0)
+    sumOfPositive += i;
+    console.log(arr[i]);
+    
   }
-  return console.log(record.name, record['credit card number'], record.csc);
+  return sumOfPositive;
+  
+  
+  
 }
 
-const recordBtn = document.getElementById('recordBtn').addEventListener('click', ccRecord);
+array = [1, 3, -3, 4, 5, 6, 10];
+//result: 29;
+console.log(positiveSum(array));
