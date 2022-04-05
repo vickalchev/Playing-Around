@@ -1,17 +1,21 @@
-function positiveSum(arr) {
-  let sumOfPositive = 0;
-  for (let i = 0; i<arr.length; i++) {
-    if(arr[i] >=0)
-    sumOfPositive += i;
-    console.log(arr[i]);
-    
-  }
-  return sumOfPositive;
+// //1. Using the for...of loop to 
+
+
+
+
+// // Using the the reduce method to add up only positive values;
+// function positiveSum(arr) {
+//  return arr.reduce((a,b) => a+ (b>0 ? b : 0),0);
   
   
-  
+// }
+
+// array = [1, 3, -3, 4, 5, 6, 10];
+// //result: 29;
+// console.log(positiveSum(array));
+
+const sentence = string => {
+    return string.split(' ');
 }
 
-array = [1, 3, -3, 4, 5, 6, 10];
-//result: 29;
-console.log(positiveSum(array));
+console.log(sentence('hello there'));
