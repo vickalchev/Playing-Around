@@ -7,3 +7,5 @@ If [Codewars](https://www.codewars.com) is new to you, it's a platform curating 
 Katas is what Codewars calls their tiny exercises that call for the application of specific skills (e.g. if-statement logic, iteration, etc.).
 
 https://www.codewars.com/kata/5715eaedb436cf5606000381/train/javascript
+
+to be continued...
