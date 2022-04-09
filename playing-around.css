@@ -1,0 +1,49 @@
+body {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: 0.5fr 1fr 1.5fr 1.5fr 2fr 0.5fr;
+    grid-template-areas:
+    "nav nav"
+    "hero hero"
+    "left right"
+    "about about"
+    "footer footer"
+     ;
+    height: 100vh;
+}
+
+nav {
+    /* height: 50px; */
+    grid-area: nav;
+    background-color: azure;
+}
+
+.hero {
+    grid-area: hero;
+    background-color: beige;
+
+}
+
+.left {
+    grid-area: left;
+    background-color: bisque;
+
+}
+
+.right {
+
+    grid-area: right;
+    background-color: aquamarine;
+}
+
+.about {
+    grid-area: about;
+    background-color: blue;
+
+}
+
+footer {
+    grid-area: footer;
+    background-color: blueviolet;
+
+}
